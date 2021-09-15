@@ -78,7 +78,7 @@ def song(client, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = '**🎵 Uploaded by **'
+        rep = '**🎵 Uploaded by Ice Music**'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
@@ -383,7 +383,7 @@ async def ytmusic(client,message: Message):
 
             if duration > 8:
                 await pablo.edit(
-                    f"❌ Videos longer than 8 minute(s) aren't allowed, the provided video is {duration} minute(s)"
+                    f"❌ Videos longer than aren't allowed, the provided video is {duration} minute(s)"
                 )
                 is_downloading = False
                 return
