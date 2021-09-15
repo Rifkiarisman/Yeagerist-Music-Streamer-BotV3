@@ -95,7 +95,7 @@ def song(client, message):
     except Exception as e:
         print(e)
 
-ARQ_API = "http://35.240.133.234:8000"
+ARQ_API = "MXABVH-QZISPI-QFSKLC-JXMIDZ-ARQ"
 arq = ARQ(ARQ_API)
 
 
