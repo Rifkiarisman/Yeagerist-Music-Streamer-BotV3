@@ -35,11 +35,11 @@ async def start(_, message: Message):
                         "📜 User Manual 📜", url="https://telegra.ph/Yeagerist-Music-Streamer-Bot-04-28")
                   ],[
                     InlineKeyboardButton(
-                        "👨‍💻 Updates 👨‍💻", url="https://t.me/Animemusicarchive6"
+                        "👨‍💻 Updates 👨‍💻", url="https://t.me/icemusicupdate"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "Support Chat 🎙️", url="https://t.me/Yeageristbots"
+                        "Buy Me A Coffe", url="https://t.me/sokapgblg"
                     )]
             ]
         ),
@@ -53,7 +53,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🎙️ Support Group 🎙️", url="https://t.me/Yeageristbots")
+                        "🔥DEVELOPER🔥", url="https://t.me/sokapgblg")
                 ]
             ]
         )
